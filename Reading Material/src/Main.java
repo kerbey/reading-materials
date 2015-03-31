@@ -2,7 +2,8 @@ import java.util.Scanner;
 public class Main
 {
 	public static void main(String []args)
-	{
+	{//super class is called reading material
+	//subclasses are the different types of reading materials 
 		textBook text= new textBook();
 		String Text=text.TextBookChoices();
 		System.out.println(Text);
