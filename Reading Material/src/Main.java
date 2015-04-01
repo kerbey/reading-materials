@@ -4,6 +4,7 @@ public class Main
 	public static void main(String []args)
 	{//super class is called reading material
 	//subclasses are the different types of reading materials 
+	//and they each offer a title with the author, page amount, publisher, or editor
 		textBook text= new textBook();
 		String Text=text.TextBookChoices();
 		System.out.println(Text);
